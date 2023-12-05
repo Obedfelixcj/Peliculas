@@ -10,5 +10,27 @@
 </head>
 <body>
     
+    <div class = "wrapper">
+        <div class = "logo">
+            <div class = "container">
+                <p>BuscameLa<span> Peli.</span></p>
+            </div>
+        </div>
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Buscar peli:</h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+                <div class = "search-list" id = "search-list">
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
 </body>
 </html>
